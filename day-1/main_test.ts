@@ -24,3 +24,8 @@ Deno.test("part 1", () => {
 Deno.test("part 2", () => {
   assertEquals(part2(input), 31);
 });
+
+setTimeout(() => console.log("0"), 0);
+Promise.resolve().then(() => console.log("1"));
+queueMicrotask(() => console.log("2"));
+console.log("3");
