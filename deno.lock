@@ -38,6 +38,11 @@
           "jsr:@std/assert@1",
           "jsr:@std/collections@^1.0.9"
         ]
+      },
+      "day-4": {
+        "dependencies": [
+          "jsr:@std/assert@1"
+        ]
       }
     }
   }
