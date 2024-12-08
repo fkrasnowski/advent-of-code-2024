@@ -58,6 +58,11 @@
         "dependencies": [
           "jsr:@std/assert@1"
         ]
+      },
+      "day-8": {
+        "dependencies": [
+          "jsr:@std/assert@1"
+        ]
       }
     }
   }
