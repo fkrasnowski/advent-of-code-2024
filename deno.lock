@@ -3,7 +3,8 @@
   "specifiers": {
     "jsr:@std/assert@1": "1.0.8",
     "jsr:@std/collections@^1.0.9": "1.0.9",
-    "jsr:@std/internal@^1.0.5": "1.0.5"
+    "jsr:@std/internal@^1.0.5": "1.0.5",
+    "npm:fast-linked-list@^3.2.3": "3.2.3"
   },
   "jsr": {
     "@std/assert@1.0.8": {
@@ -17,6 +18,11 @@
     },
     "@std/internal@1.0.5": {
       "integrity": "54a546004f769c1ac9e025abd15a76b6671ddc9687e2313b67376125650dc7ba"
+    }
+  },
+  "npm": {
+    "fast-linked-list@3.2.3": {
+      "integrity": "sha512-RQeKNsyBNBdT3kglXDI1bFwR1kz2EQq6SJNPeWX8fJm7/9oRnof0aD4gqBsm1nMKKm6Tdr1i1j6S+hWOZQqN0Q=="
     }
   },
   "workspace": {
@@ -62,6 +68,12 @@
       "day-8": {
         "dependencies": [
           "jsr:@std/assert@1"
+        ]
+      },
+      "day-9": {
+        "dependencies": [
+          "jsr:@std/assert@1",
+          "npm:fast-linked-list@^3.2.3"
         ]
       }
     }

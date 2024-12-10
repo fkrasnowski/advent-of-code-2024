@@ -1,0 +1,9 @@
+{
+  "tasks": {
+    "dev": "deno run --watch --allow-read main.ts"
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1",
+    "fast-linked-list": "npm:fast-linked-list@^3.2.3"
+  }
+}
